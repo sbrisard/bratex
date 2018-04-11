@@ -123,8 +123,7 @@ The regexp defines two parenthesized groups:
 
 Implementation note: this group indices should not be hard-coded.  Use the
 functions `bratex--match-size', `bratex--match-amsflag' and
-`bratex--match-bracket' instead."
-  )
+`bratex--match-bracket' instead.")
 
 (defconst bratex--delim-distance 8
   "The maximum distance to search for `bratex--delim-regexp'.
@@ -404,8 +403,7 @@ The function TRANSFORM takes a `bratex-delim' as input and returns a new
           ;; Else point was in left delim. Move to beginning of new left delim.
           (goto-char (min (+ (bratex-delim-start left-new)
                              (- p (bratex-delim-start left)))
-                          (- (bratex-delim-end left-new) 1)))
-          )))))
+                          (- (bratex-delim-end left-new) 1))))))))
 
 (defun bratex-cycle-size ()
   "Cycle the size of the pair of delimiters at point in increasing order.
