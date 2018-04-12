@@ -366,7 +366,6 @@ If REVERSE is non-nil, then the list of brackets is cycled in reverse order."
          (if (bratex-left-delim-p delim)
              (if reverse bratex--left-brackets-reverse bratex--left-brackets)
            (if reverse bratex--right-brackets-reverse bratex--right-brackets))))
-    (when reverse (setq brackets (reverse brackets)))
     (setf (bratex-delim-bracket delim-new)
           (bratex--cycle (bratex-delim-bracket delim) brackets))
     delim-new))
