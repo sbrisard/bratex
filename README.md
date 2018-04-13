@@ -50,7 +50,7 @@ Add the following lines to your `init.el` file
 
 ```
 (require 'bratex)
-(add-hook 'LaTeX-mode-hook #'bratex-config)
+(add-hook 'latex-mode-hook #'bratex-config)
 ```
 
 ### Configuration with AUCTeX
