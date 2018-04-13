@@ -32,7 +32,7 @@ A picture is worth a thousand words… So the four major functions defined in th
 
 ### Cycling through the delimiter types
 
-| `bratex-cycle-bracket` (<kbd>S-right</kbd>)              | `bratex-cycle-bracket-reverse` (<kbd>S-left</kbd>                        |
+| `bratex-cycle-bracket` (<kbd>S-right</kbd>)              | `bratex-cycle-bracket-reverse` (<kbd>S-left</kbd>)                       |
 | -------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![bratex-cycle-bracket](images/bratex-cycle-bracket.gif) | ![bratex-cycle-bracket-reverse](images/bratex-cycle-bracket-reverse.gif) |
 
