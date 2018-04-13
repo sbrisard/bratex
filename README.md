@@ -26,13 +26,13 @@ A picture is worth a thousand words… So the four major functions defined in th
 
 ### Cycling through the delimiter sizes
 
-| `bratex-cycle-size`                                | `bratex-cycle-size-reverse`                                        |
+| `bratex-cycle-size` (<kbd>S-up</kbd>)              | `bratex-cycle-size-reverse` (<kbd>S-down</kbd>)                    |
 | -------------------------------------------------- | -------------------------------------------------------------------|
 | ![bratex-cycle-size](images/bratex-cycle-size.gif) | ![bratex-cycle-size-reverse](images/bratex-cycle-size-reverse.gif) |
 
 ### Cycling through the delimiter types
 
-| `bratex-cycle-bracket`                                   | `bratex-cycle-bracket-reverse`                                           |
+| `bratex-cycle-bracket` (<kbd>S-right</kbd>)              | `bratex-cycle-bracket-reverse` (<kbd>S-left</kbd>                        |
 | -------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![bratex-cycle-bracket](images/bratex-cycle-bracket.gif) | ![bratex-cycle-bracket-reverse](images/bratex-cycle-bracket-reverse.gif) |
 
