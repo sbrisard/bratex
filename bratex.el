@@ -465,8 +465,6 @@ The typical sequence is (see `bratex--brackets'):
   (local-set-key (kbd "<S-right>") #'bratex-cycle-bracket)
   (local-set-key (kbd "<S-left>") #'bratex-cycle-bracket-reverse))
 
-(add-hook 'LaTeX-mode-hook #'bratex-config)
-
 (provide 'bratex)
 
 ;;; bratex.el ends here
