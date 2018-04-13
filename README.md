@@ -26,20 +26,12 @@ A picture is worth a thousand words… So the four major functions defined in th
 
 ### Cycling through the delimiter sizes
 
-`bratex-cycle-size`:
-
-![bratex-cycle-size](images/bratex-cycle-size.gif)
-
-`bratex-cycle-size-reverse`
-
-![bratex-cycle-size-reverse](images/bratex-cycle-size-reverse.gif)
+| :`bratex-cycle-size`:                              | :`bratex-cycle-size-reverse`:                                      |
+| -------------------------------------------------- | -------------------------------------------------------------------|
+| ![bratex-cycle-size](images/bratex-cycle-size.gif) | ![bratex-cycle-size-reverse](images/bratex-cycle-size-reverse.gif) |
 
 ### Cycling through the delimiter types
 
-`bratex-cycle-bracket`:
-
-![bratex-cycle-bracket](images/bratex-cycle-bracket.gif)
-
-`bratex-cycle-bracket-reverse`:
-
-![bratex-cycle-bracket-reverse](images/bratex-cycle-bracket-reverse.gif)
+| :`bratex-cycle-bracket`:                                 | :`bratex-cycle-bracket-reverse`:                                         |
+| -------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![bratex-cycle-bracket](images/bratex-cycle-bracket.gif) | ![bratex-cycle-bracket-reverse](images/bratex-cycle-bracket-reverse.gif) |
