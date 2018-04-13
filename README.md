@@ -35,3 +35,29 @@ A picture is worth a thousand words… So the four major functions defined in th
 | `bratex-cycle-bracket`                                   | `bratex-cycle-bracket-reverse`                                           |
 | -------------------------------------------------------- | ------------------------------------------------------------------------ |
 | ![bratex-cycle-bracket](images/bratex-cycle-bracket.gif) | ![bratex-cycle-bracket-reverse](images/bratex-cycle-bracket-reverse.gif) |
+
+## Installation
+
+For the time being, `package-install` is not enabled (contributions
+welcome!).
+
+Checkout the current repository, and place the file `bratex.el`
+somewhere in your `load-path`.
+
+### Configuration with the default `latex-mode`
+
+Add the following lines to your `init.el` file
+
+```
+(require 'bratex)
+(add-hook 'LaTeX-mode-hook #'bratex-config)
+```
+
+### Configuration with AUCTeX
+
+Add the following lines to your `init.el` file
+
+```
+(require 'bratex)
+(add-hook 'LaTeX-mode-hook #'bratex-config)
+```
