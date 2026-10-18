@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t -*-
 (ert-deftest test-bratex-delim= ()
   (let ((delim1 (make-bratex-delim :start 10
                                    :size "\\big" :amsflag "l" :bracket "\\{"))

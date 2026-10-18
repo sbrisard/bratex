@@ -1,4 +1,4 @@
-;;; bratex.el --- Manipulation of brackets in LaTeX mode
+;;; bratex.el --- Manipulation of brackets in LaTeX mode  -*- lexical-binding: t -*-
 
 ;; Copyright (C) 2018 Sébastien Brisard
 
@@ -47,7 +47,7 @@
 ;;
 
 ;;; Code:
-(require 'cl)
+(require 'cl-lib)
 
 (defun bratex--empty-string-p (str)
   "Return t if STR is nil or \"\"."
@@ -88,9 +88,9 @@ If ELT does not belong to LST, returns nil."
   "List of right LaTeX brackets in reverse order.")
 
 (defconst bratex--bracket-regexp
-  (regexp-opt (apply #'append (map 'list
-                                   (lambda (pair) (list (car pair) (cdr pair)))
-                                   bratex--brackets)))
+  (regexp-opt (apply #'append (cl-map 'list
+                                      (lambda (pair) (list (car pair) (cdr pair)))
+                                      bratex--brackets)))
   "Regular expression that defines a LaTeX bracket.
 
 This variable is generated automatically from `bratex--brackets'.
@@ -317,7 +317,7 @@ point is moved."
 (defun bratex-balanced-delims ()
   "Return the balanced delimiters at point as a (left . right) list."
   (save-excursion
-    (let ((this (bratex-delim-at-point)) (pair))
+    (let ((this (bratex-delim-at-point)) (that))
       (when this
         (cond ((and (bratex-left-delim-p this)
                     (setq that (bratex-right-delim this)))
